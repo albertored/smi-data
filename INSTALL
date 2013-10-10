@@ -1,2 +1,27 @@
+
 To install this script follow these steps:
-1. fdfs
+
+
+1. Install the System Monitor Indicator package
+
+    sudo add-apt-repository ppa:alexeftimie/ppa
+    sudo apt-get update
+    sudo apt-get install indicator-sysmonitor
+
+
+2. Copy the file smi-data.py somewhere in your pc
+
+
+3. From terminal navigate to its folder and make it executable with
+
+    chmod +x smi-data.py
+    
+
+4. Open the indicator-sysmonitor app typing it on a terminal or searching "System Monitor Indicator" in your dash.
+   You will see something appears on your panel.
+   
+
+5. Right-click on it, then on Preferences, Advanced. Select the "Use this command" radio button and type the path of the smi-data.py file
+
+
+6. You are done!
